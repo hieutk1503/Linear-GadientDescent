@@ -5,9 +5,18 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
 
+import sys
+import os
+
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
 #đọc dữ liệu
 def doc_du_lieu():
-    file = "\\Python\\Code_Python\\Student_Performance.csv"
+    file = os.path.join(os.path.dirname(__file__), "Student_Performance.csv")
     data=pd.read_csv(file)
     return data
 
