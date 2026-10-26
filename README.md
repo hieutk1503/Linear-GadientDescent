@@ -12,7 +12,7 @@ Kết luận
 ### 1. Khái niệm
 Linear Regression là một thuật toán học máy thuộc nhóm học có giám sát (Supervised Learning), được sử dụng để dự đoán các giá trị liên tục. Mô hình này thiết lập mối quan hệ tuyến tính giữa biến đầu vào (độc lập) và biến đầu ra (phụ thuộc).
 ### 2. Ý tưởng chính
-Linear Regression giả định rằng có một mối quan hệ tuyến tính giữa biến đầu vào và biến đầu ra :
+Linear Regression giả định rằng có một mối quan hệ tuyến tính giữa biến đầu vào và biến đầu ra:
 
 ![CT1_Linear](https://github.com/user-attachments/assets/ffe339e8-0d24-438c-9217-caf776662995)
 
